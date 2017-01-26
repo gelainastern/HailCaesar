@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99657731E355A89009FAAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99657721E355A89009FAAAF /* AppDelegate.swift */; };
+		F99657751E355A89009FAAAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99657741E355A89009FAAAF /* ViewController.swift */; };
+		F99657781E355A89009FAAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99657761E355A89009FAAAF /* Main.storyboard */; };
+		F996577B1E355A89009FAAAF /* EncryptionCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F99657791E355A89009FAAAF /* EncryptionCalculator.xcdatamodeld */; };
+		F996577D1E355A89009FAAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F996577C1E355A89009FAAAF /* Assets.xcassets */; };
+		F99657801E355A89009FAAAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F996577E1E355A89009FAAAF /* LaunchScreen.storyboard */; };
+		F996578C1E355AD5009FAAAF /* CipherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996578B1E355AD5009FAAAF /* CipherController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F996576F1E355A89009FAAAF /* EncryptionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99657721E355A89009FAAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F99657741E355A89009FAAAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F99657771E355A89009FAAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F996577A1E355A89009FAAAF /* EncryptionCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EncryptionCalculator.xcdatamodel; sourceTree = "<group>"; };
+		F996577C1E355A89009FAAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F996577F1E355A89009FAAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F99657811E355A89009FAAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F996578B1E355AD5009FAAAF /* CipherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CipherController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F996576C1E355A89009FAAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F99657661E355A89009FAAAF = {
+			isa = PBXGroup;
+			children = (
+				F99657711E355A89009FAAAF /* EncryptionCalculator */,
+				F99657701E355A89009FAAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99657701E355A89009FAAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F996576F1E355A89009FAAAF /* EncryptionCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99657711E355A89009FAAAF /* EncryptionCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F99657721E355A89009FAAAF /* AppDelegate.swift */,
+				F99657741E355A89009FAAAF /* ViewController.swift */,
+				F996578B1E355AD5009FAAAF /* CipherController.swift */,
+				F99657761E355A89009FAAAF /* Main.storyboard */,
+				F996577C1E355A89009FAAAF /* Assets.xcassets */,
+				F996577E1E355A89009FAAAF /* LaunchScreen.storyboard */,
+				F99657811E355A89009FAAAF /* Info.plist */,
+				F99657791E355A89009FAAAF /* EncryptionCalculator.xcdatamodeld */,
+			);
+			path = EncryptionCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F996576E1E355A89009FAAAF /* EncryptionCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99657841E355A89009FAAAF /* Build configuration list for PBXNativeTarget "EncryptionCalculator" */;
+			buildPhases = (
+				F996576B1E355A89009FAAAF /* Sources */,
+				F996576C1E355A89009FAAAF /* Frameworks */,
+				F996576D1E355A89009FAAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptionCalculator;
+			productName = EncryptionCalculator;
+			productReference = F996576F1E355A89009FAAAF /* EncryptionCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99657671E355A89009FAAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Join The Resistance";
+				TargetAttributes = {
+					F996576E1E355A89009FAAAF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DRS5PV5E6P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F996576A1E355A89009FAAAF /* Build configuration list for PBXProject "EncryptionCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99657661E355A89009FAAAF;
+			productRefGroup = F99657701E355A89009FAAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F996576E1E355A89009FAAAF /* EncryptionCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F996576D1E355A89009FAAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99657801E355A89009FAAAF /* LaunchScreen.storyboard in Resources */,
+				F996577D1E355A89009FAAAF /* Assets.xcassets in Resources */,
+				F99657781E355A89009FAAAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F996576B1E355A89009FAAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99657751E355A89009FAAAF /* ViewController.swift in Sources */,
+				F996578C1E355AD5009FAAAF /* CipherController.swift in Sources */,
+				F996577B1E355A89009FAAAF /* EncryptionCalculator.xcdatamodeld in Sources */,
+				F99657731E355A89009FAAAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F99657761E355A89009FAAAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99657771E355A89009FAAAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F996577E1E355A89009FAAAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F996577F1E355A89009FAAAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F99657821E355A89009FAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F99657831E355A89009FAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99657851E355A89009FAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DRS5PV5E6P;
+				INFOPLIST_FILE = EncryptionCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeganStern.EncryptionCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F99657861E355A89009FAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DRS5PV5E6P;
+				INFOPLIST_FILE = EncryptionCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeganStern.EncryptionCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F996576A1E355A89009FAAAF /* Build configuration list for PBXProject "EncryptionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99657821E355A89009FAAAF /* Debug */,
+				F99657831E355A89009FAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99657841E355A89009FAAAF /* Build configuration list for PBXNativeTarget "EncryptionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99657851E355A89009FAAAF /* Debug */,
+				F99657861E355A89009FAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F99657791E355A89009FAAAF /* EncryptionCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F996577A1E355A89009FAAAF /* EncryptionCalculator.xcdatamodel */,
+			);
+			currentVersion = F996577A1E355A89009FAAAF /* EncryptionCalculator.xcdatamodel */;
+			path = EncryptionCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F99657671E355A89009FAAAF /* Project object */;
+}
